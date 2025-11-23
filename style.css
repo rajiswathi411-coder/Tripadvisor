@@ -278,6 +278,12 @@ body{
      
 }
 
+.sec2__card{
+    position:relative;
+    flex-basis:24%;
+}
+
+
 .rating{
     font-size: 14px;
     vertical-align: top;
@@ -318,7 +324,11 @@ body{
     flex-basis: 24%;
 }
 
+<<<<<<< HEAD
 .nt__card h4 {
+=======
+.nt__card h4{
+>>>>>>> 6172b712f8090e822d3e14f173ed5b9e30422434
     color: white;
     position: absolute;
     bottom: 5%;
