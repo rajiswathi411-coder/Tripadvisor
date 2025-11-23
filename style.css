@@ -278,6 +278,24 @@ body{
      
 }
 
+.explore__sec2 .sec2__card {
+    display:flex;
+    flex-direction:coloumn;
+    justify-content: flex-start;
+    height:360px;
+}
+
+.explore__sec2 .sec2__card img {
+    height:220px;
+    object-fit:cover;
+}
+
+.sec2__card{
+    position:relative;
+    flex-basis:24%;
+}
+
+
 .rating{
     font-size: 14px;
     vertical-align: top;
@@ -318,7 +336,7 @@ body{
     flex-basis: 24%;
 }
 
-.nt__card h1{
+.nt__card h4{
     color: white;
     position: absolute;
     bottom: 5%;
