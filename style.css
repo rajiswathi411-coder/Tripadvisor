@@ -278,18 +278,6 @@ body{
      
 }
 
-.explore__sec2 .sec2__card {
-    display:flex;
-    flex-direction:coloumn;
-    justify-content: flex-start;
-    height:360px;
-}
-
-.explore__sec2 .sec2__card img {
-    height:220px;
-    object-fit:cover;
-}
-
 .sec2__card{
     position:relative;
     flex-basis:24%;
