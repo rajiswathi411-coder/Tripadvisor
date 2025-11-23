@@ -277,12 +277,16 @@ body{
      gap: 10px;
      
 }
-
-.sec2__card{
-    position:relative;
-    flex-basis:24%;
+.explore__sec2 .sec2__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 360px;
 }
-
+.explore__sec2 .sec2__card img {
+    height: 220px;
+    object-fit: cover;
+}
 
 .rating{
     font-size: 14px;
@@ -324,11 +328,7 @@ body{
     flex-basis: 24%;
 }
 
-<<<<<<< HEAD
 .nt__card h4 {
-=======
-.nt__card h4{
->>>>>>> 6172b712f8090e822d3e14f173ed5b9e30422434
     color: white;
     position: absolute;
     bottom: 5%;
@@ -493,8 +493,6 @@ body{
 .awards-sec2__card{
     position: relative;
     width:47%;
-    max-width: 100%;
-    box-sizing: border-box;
 }
 
 .awards-sec2__card img{
@@ -710,21 +708,8 @@ body{
     .rating{
         vertical-align: top;
     }
-.awards__card{
-    display: flex;
-    flex-direction: column;
-    width:100%;
-    gap:20px;
-}
-    .awards__card__sec1,.awards__card__sec2{
-        width:100%;
-        display:block
-    }
-    .awards__card__sec1 img,.awards__card__sec2 img {
-        width:100%;
-        height: auto;
-    }
 
+    
 
    .themedcollection__sec2__card{
      flex-basis: 47%;
